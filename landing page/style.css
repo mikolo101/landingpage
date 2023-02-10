@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+}
+.can {
+    background-color: aquamarine;
+}
+/* Navigation bar */
+
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    padding: 60px;
+    align-items: center;
+}
+.logo {
+    font-size: 30px;
+    font-weight: 400px;
+    color: aquamarine;
+}
+ul{
+    display: flex;
+    margin-left: 600px;
+    color: aquamarine;
+}
+li{
+    list-style-type: none;
+    font-size: 20px;
+    margin-left: 100px;
+    text-transform: uppercase;
+}
+span {
+    color: blue;
+    text-decoration: underline;
+    text-underline-offset: 12px;
+}
+a {
+    justify-content: space-between;
+    text-decoration: none;
+}
+.nav-btn {
+    margin-left: 40px;
+    width: 10pc;
+    border-radius: 10px;
+    color: aquamarine;
+    background-color: transparent;
+    cursor: pointer;
+    border-color: blue;
+    text-transform: uppercase;
+}
+.nav-btn:hover {
+    color: blue;
+    transition: 0.3s;
+}
+img {
+    width: 16pc;
+    height: 15vh;
+}
+.container-one {
+    width: 50%;
+    margin-left: 30%;
+    margin-top: 50px;
+}
+.container-one h1 {
+    font-size: 50px;
+    font-weight: 400px;
+}
+.container-one p {
+    font-size: 25px;
+}
+.container-one button {
+    width: 10pc;
+    height: 5vh;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.css-card {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    padding-top: 50px;
+    height: 50vh;
+}
+/* .img-card {
+    margin-left: 400px;
+    padding-top: 50px;
+} */
+.left-container {
+    margin-right: 350px;
+}
+div h2.service {
+    font-size: 30px;
+    font-weight: 200px;
+    font-family: 'Courier New', Courier, monospace;
+    color: blue;
+    justify-content: center;
+    align-content: center;
+    display: flex;
+    margin-top: 30px;
+}
+.img-con {
+    box-shadow: 0 8px 16px 0 black;
+    margin-left: 50px;
+    margin-bottom: 30px;
+}
+.img-con h2 {
+    font-size: 25px;
+    margin-top: 20px;
+    font-weight: 100px;
+    padding-top: 20px;
+    color: aquamarine;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+}
+.img-con p {
+    font-size: 15px;
+    margin-top: 20px;
+    font-weight: 100px;
+    padding-top: 20px;
+    line-height: 1;
+    color: blue;
+}
+.left-container h1 {
+    color: blue;
+    font-size: 50px;
+    font-weight: 100px;
+    margin-right: 60px;
+    padding-top: 30px;
+}
+.left-container p {
+    font-size: 25px;
+    color: aquamarine;
+}
+.left-container button {
+    width: 10pc;
+    height: 5vh;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+ul li a:hover {
+    color: yellow;
+    transition: 0.3s;
+}
+.img-con button {
+    width: 7pc;
+    height: 5vh;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.img-con p {
+    padding: 5px;
+    margin-bottom: 2px;
+}
+.img-con a {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin-top: 3px;
+}
+.img-con a button:hover {
+    color: yellow;
+    transition: 0.6s;
+}
+.img-con img {
+    height: 170px;
+}
+footer {
+    background-color: black;
+    padding: 2rem;
+    color: blue;
+    display: block;
+}
+footer form h1 {
+    font-size: 40px;
+    font-weight: 200px;
+    align-items: center;
+}
+footer form input {
+    width: 300px;
+    height: 30px;
+}
+form button {
+    width: 7pc;
+    height: 5vh;
+    background-color: aquamarine;
+    color: blue;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 120px;
+    margin-top: 20px;
+}
+footer form {
+    margin-left: 400px;
+}
+svg {
+    padding: 10px;
+}
